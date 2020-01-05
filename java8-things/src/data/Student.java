@@ -7,6 +7,25 @@ public class Student {
     private int gradeLevel;
     private double gpa;
     private String gender;
+
+    public Student(String name, int gradeLevel, double gpa, String gender, int notebooks, List<String> activities) {
+        this.name = name;
+        this.gradeLevel = gradeLevel;
+        this.gpa = gpa;
+        this.gender = gender;
+        this.notebooks = notebooks;
+        this.activities = activities;
+    }
+
+    public int getNotebooks() {
+        return notebooks;
+    }
+
+    public void setNotebooks(int notebooks) {
+        this.notebooks = notebooks;
+    }
+
+    private int notebooks;
     List<String> activities = new ArrayList<>();
 
     public Student(String name) {

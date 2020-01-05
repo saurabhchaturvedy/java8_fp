@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64fe496f-042e-4221-ba9b-1b3036524c9d" name="Default Changelist" comment="" />
+    <list default="true" id="64fe496f-042e-4221-ba9b-1b3036524c9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/NumericStreamMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/NumericStreamRangesExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/NumericStreamsBoxingUnboxingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/NumericStreamsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamMapReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamMinMaxTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamOfGenerateIterateExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamReduceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamsComparatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/streams/StreamsFilterExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8-things/data/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8-things/data/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8-things/data/StudentDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8-things/data/StudentDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/java8-things/streams/StreamTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java8-things/streams/StreamTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/StudentDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/StudentDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/StreamTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/StreamTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,19 +33,27 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1VeETFfaCmOHrbCxSGMjFB8mhur" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="RunManager" selected="Application.StreamTest">
-    <configuration name="EmployeeSorter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.EmployeeSorter" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager" selected="Application.NumericStreamMapTest">
+    <configuration name="NumericStreamMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.NumericStreamMapTest" />
       <module name="java8-things" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -34,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LamdaVariableTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lambdas.LamdaVariableTest" />
+    <configuration name="NumericStreamRangesExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.NumericStreamRangesExamples" />
       <module name="java8-things" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lambdas.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="functionalinterfaces.SortMap" />
+    <configuration name="NumericStreamsBoxingUnboxingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.NumericStreamsBoxingUnboxingTest" />
       <module name="java8-things" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="functionalinterfaces.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -60,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortPrimitiveArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="data.SortPrimitiveArray" />
+    <configuration name="NumericStreamsExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.NumericStreamsExample" />
       <module name="java8-things" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="data.*" />
+          <option name="PATTERN" value="streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,8 +100,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.StreamTest" />
+    <configuration name="StreamOfGenerateIterateExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamOfGenerateIterateExample" />
       <module name="java8-things" />
       <extension name="coverage">
         <pattern>
@@ -87,19 +114,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LamdaVariableTest" />
-      <item itemvalue="Application.SortMap" />
-      <item itemvalue="Application.SortPrimitiveArray" />
-      <item itemvalue="Application.EmployeeSorter" />
-      <item itemvalue="Application.StreamTest" />
+      <item itemvalue="Application.StreamOfGenerateIterateExample" />
+      <item itemvalue="Application.NumericStreamsExample" />
+      <item itemvalue="Application.NumericStreamRangesExamples" />
+      <item itemvalue="Application.NumericStreamsBoxingUnboxingTest" />
+      <item itemvalue="Application.NumericStreamMapTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StreamTest" />
-        <item itemvalue="Application.SortMap" />
-        <item itemvalue="Application.EmployeeSorter" />
-        <item itemvalue="Application.SortPrimitiveArray" />
-        <item itemvalue="Application.LamdaVariableTest" />
+        <item itemvalue="Application.NumericStreamMapTest" />
+        <item itemvalue="Application.NumericStreamsBoxingUnboxingTest" />
+        <item itemvalue="Application.NumericStreamRangesExamples" />
+        <item itemvalue="Application.NumericStreamsExample" />
+        <item itemvalue="Application.StreamOfGenerateIterateExample" />
       </list>
     </recent_temporary>
   </component>
@@ -129,38 +156,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser" timestamp="1578046684118">
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser" timestamp="1578215232917">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="446" y="58" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578046684118" />
-    <state width="1237" height="186" key="GridCell.Tab.0.bottom" timestamp="1578065859876">
+    <state x="446" y="51" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1578215232917" />
+    <state width="1237" height="186" key="GridCell.Tab.0.bottom" timestamp="1578219631762">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578065859876" />
-    <state width="1237" height="186" key="GridCell.Tab.0.center" timestamp="1578065859875">
+    <state width="1237" height="186" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1578219631762" />
+    <state width="1237" height="186" key="GridCell.Tab.0.center" timestamp="1578219631761">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578065859875" />
-    <state width="1237" height="186" key="GridCell.Tab.0.left" timestamp="1578065859875">
+    <state width="1237" height="186" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1578219631761" />
+    <state width="1237" height="186" key="GridCell.Tab.0.left" timestamp="1578219631761">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578065859875" />
-    <state width="1237" height="186" key="GridCell.Tab.0.right" timestamp="1578065859876">
+    <state width="1237" height="186" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1578219631761" />
+    <state width="1237" height="186" key="GridCell.Tab.0.right" timestamp="1578219631761">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="186" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578065859876" />
+    <state width="1237" height="186" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1578219631761" />
     <state x="315" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1577609080711">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="315" y="0" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1280.680@0.0.1280.680" timestamp="1577609080711" />
-    <state x="0" y="0" width="637" height="680" key="find.popup" timestamp="1577609169609">
+    <state x="0" y="0" width="637" height="680" key="find.popup" timestamp="1578214667657">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="0" y="0" width="637" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1577609169609" />
-    <state x="297" y="151" key="run.anything.popup" timestamp="1577605582102">
+    <state x="0" y="0" width="637" height="680" key="find.popup/0.0.1280.680@0.0.1280.680" timestamp="1578214667657" />
+    <state x="91" y="0" key="new project wizard" timestamp="1578204301469">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1577605582102" />
+    <state x="91" y="0" key="new project wizard/0.0.1280.680@0.0.1280.680" timestamp="1578204301469" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1578128318105">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1578128318105" />
     <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1578057015065">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

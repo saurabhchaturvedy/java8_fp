@@ -18,7 +18,12 @@ public class StreamTest {
         Map<String, List<String>> collect = StudentDataBase.getAllStudents().stream().peek(student -> {
             System.out.println(student);
         }).
-        filter(booleanPredicate).filter(booleanPredicate2).collect(Collectors.toMap(Student::getName, Student::getActivities));
+                filter(booleanPredicate).peek(student -> {
+            System.out.println("After First Filter " + student);
+        }).filter(booleanPredicate2).
+                peek(student -> {
+                    System.out.println("After second filter " + student);
+                }).collect(Collectors.toMap(Student::getName, Student::getActivities));
 
         System.out.println(collect);
     }
